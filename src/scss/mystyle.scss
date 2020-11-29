@@ -1,0 +1,27 @@
+// Customizing bootstrap styles
+// $enable-grid-classes:false;
+$primary:#007bff;
+$secondary:#868e96;
+$success:#28a745;
+$danger:#dc3545;
+$info:#17a2b8;
+$warning:#ffc107;
+$light:#f8f9fa;
+$dark:#343a40;
+$spacer:1rem;
+$border-width:1px;
+$btn-border-radius:1.35rem;
+
+//import bootstrap
+@import "~bootstrap/scss/bootstrap";
+//import Required modules
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+//import Optional modules
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+// @import 'node_modules/lightbox2/dist/css/lightbox.css';
