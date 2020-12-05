@@ -1,2 +1,3 @@
 # My_WEB
-#cd server & npm start
+How to start 
+- cd server & npm start
