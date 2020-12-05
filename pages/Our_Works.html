@@ -4,8 +4,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Our works</title>
-    <script src="../dist/main.js"></script>
-    <link rel="stylesheet" href="../dist/main.css">
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./main.css">
     <link rel="shortcut icon" href="../src/img/myIcon.ico" type="image/x-icon">
   </head>
 
@@ -13,16 +13,16 @@
 
     <nav class="site-header sticky-top py-1">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="../dist/index.html" aria-label="Product">
+        <a class="py-2" href="/" aria-label="Product">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewbox="0 0 24 24" focusable="false">
             <title>Product</title>
             <circle cx="12" cy="12" r="10"></circle>
             <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path>
           </svg>
         </a>
-        <a class="py-2 d-none d-md-inline-block" href="../pages/About_Us.html">About us</a>
-        <a class="py-2 d-none d-md-inline-block" href="../pages/Our_Works.html">Our works</a>
-        <a class="py-2 d-none d-md-inline-block" href="../pages/login.html">Login</a>
+        <a class="py-2 d-none d-md-inline-block" href="/About">About us</a>
+        <a class="py-2 d-none d-md-inline-block" href="/Works">Our works</a>
+        <a class="py-2 d-none d-md-inline-block" href="/SignIn">Login</a>
       </div>
     </nav>
 
@@ -33,22 +33,22 @@
           <!-- <p class="lead"> </p> -->
           <!-- </div> <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 600px;"></div> </div> -->
           <div class="container">
-            <a class="example-image-link" href="../src/img/img1.jpg" data-lightbox="example-set" data-title="example"><img class="example-image" src="../src/img/img1.jpg" alt=""/></a>
-            <a class="example-image-link" href="../src/img/img2.jpg" data-lightbox="example-set" data-title="example"><img class="example-image" src="../src/img/img2.jpg" alt=""/></a>
-            <a class="example-image-link" href="../src/img/img3.jpg" data-lightbox="example-set" data-title="example"><img class="example-image" src="../src/img/img3.jpg" alt=""/></a>
-            <a class="example-image-link" href="../src/img/img4.jpeg" data-lightbox="example-set" data-title="example"><img class="example-image" src="../src/img/img4.jpeg" alt=""/></a>
+            <a class="example-image-link" href="./img1.jpg" data-lightbox="example-set" data-title="example"><img class="example-image" src="./img1.jpg" alt=""/></a>
+            <a class="example-image-link" href="./img2.jpg" data-lightbox="example-set" data-title="example"><img class="example-image" src="./img2.jpg" alt=""/></a>
+            <a class="example-image-link" href="./img3.jpg" data-lightbox="example-set" data-title="example"><img class="example-image" src="./img3.jpg" alt=""/></a>
+            <a class="example-image-link" href="./img4.jpeg" data-lightbox="example-set" data-title="example"><img class="example-image" src="./img4.jpeg" alt=""/></a>
           </div>
           <canvas id="myCanvas" width="500" height="200"></canvas>
         </div>
 
         <script type="text/javascript">
-          var canvas = document.getElementById('myCanvas');
-          var context = canvas.getContext('2d');
-          var al = 0;
-          var start = 4.72;
-          var cw = context.canvas.width / 2;
-          var ch = context.canvas.height / 2;
-          var diff;
+          let canvas = document.getElementById('myCanvas');
+          let context = canvas.getContext('2d');
+          let al = 0;
+          let start = 4.72;
+          let cw = context.canvas.width / 2;
+          let ch = context.canvas.height / 2;
+          let diff;
 
           function progressBar() {
             diff = (al / 100) * Math.PI * 2;
@@ -75,7 +75,7 @@
             al++;
           }
 
-          var bar = setInterval(progressBar, 50);
+          let bar = setInterval(progressBar, 50);
         </script>
 
       </body>

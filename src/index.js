@@ -2,7 +2,7 @@
 import './js/my.js';
 import 'bootstrap';
 //import lightbox js
-import 'C:/Users/plato/Desktop/scsscssTest/node_modules/lightbox2/dist/js/lightbox-plus-jquery.js';
+import '../node_modules/lightbox2/dist/js/lightbox.js';
 //import styles
 import  '../node_modules/lightbox2/dist/css/lightbox.css';
 import './css/my.css';
